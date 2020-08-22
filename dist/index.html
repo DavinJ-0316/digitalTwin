@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body {
+            height: 100%; margin: 0; padding: 0; overflow: hidden;
+        }
+        canvas { width: 100%; height: 100% }
+        #root{
+            height: 100%;
+        }
+        #loading {
+            position: fixed;
+            color: #FFFFFF;
+            background: #00B0F0;
+            font-size: 20px;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 500px;
+
+        }
+
+    </style>
+    <script>
+            document.oncontextmenu=new Function("return false")
+            document.onselectstart=new Function("return false")
+    </script>
+    <script src="./libs/inflate.min.js"></script>
+<link href="./css/styles.css" rel="stylesheet"></head>
+<body>
+<!--<p id="loading">loading......</p>-->
+<div id="loading">loading......</div>
+<div id="root"></div>
+<script type="text/javascript" src="./main.js"></script></body>
+</html>
