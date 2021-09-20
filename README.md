@@ -5,4 +5,4 @@ Digital Twin: Smart Building of ICT building in UTAS Launceston campus using Thr
 
 -Room V-111 and V110 are private offices, and we put light sensors there.
 
--View the demonstration: https://davinj-0316.github.io/digital-twin---beta/
+View the demonstration: https://davinj-0316.github.io/digital-twin---beta/
